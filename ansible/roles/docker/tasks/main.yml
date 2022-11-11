@@ -4,7 +4,7 @@
   docker_image:
     name: mohamedbenmiled/devops:latest
     build:
-     path: /var/lib/jenkins/workspace/CDAngular
+     path: /var/lib/jenkins/workspace/Pipeline_CD
      pull: no
     source: build
     state: present
